@@ -24,3 +24,4 @@ before_install:
   # Set up the ndk environment.
   - export ANDROID_NDK=`pwd`/android-ndk-linux
   - export PATH=${ANDROID_NDK}:${PATH}
+script: "./scripts/travisci_build.sh"
